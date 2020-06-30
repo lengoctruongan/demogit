@@ -1,0 +1,267 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+img {
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: #f2f2f2;
+}
+body header {
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+}
+body header > section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+body header > section .logo > img {
+  display: block;
+  max-width: 109px;
+  width: 100%;
+}
+body header > section .button {
+  display: flex;
+  justify-content: right;
+  align-items: top;
+  margin-right: 20px;
+}
+body header > section .button > button {
+  width: 100px;
+  height: 2.6rem;
+  margin-right: 20px;
+  background-color: #ccd2da;
+  border: 2px solid #000;
+  color: #001e46;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+body .top {
+  margin: 0 auto;
+  width: 100%;
+}
+body .top > section {
+  margin: 0 auto;
+}
+body .top > section > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./image/about_title_back.png);
+  background-size: cover;
+  background-position: center bottom;
+  height: 320px;
+}
+body .top > section > h1 .AB {
+  font-size: 5rem;
+  padding-bottom: 10px;
+  color: #001e46;
+  letter-spacing: 0.25em;
+}
+body .top > section > h1 .CD {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #323c46;
+}
+body .main-content > section .aboutus {
+  max-width: 960px;
+  font-size: 1.2rem;
+  margin: 8px auto;
+}
+body .main-content > section .aboutus > ul {
+  display: flex;
+}
+body .main-content > section .aboutus > ul > li {
+  color: #727a81;
+}
+body .main-content > section .aboutus > ul > li > a {
+  text-decoration: none;
+  color: #727a81;
+  padding-right: 10px;
+}
+body .main-content > section .aboutus > ul > li > a::after {
+  color: #001e46;
+  padding: 0 5px;
+}
+body .main-content > section > div {
+  margin: 0 auto;
+  max-width: 960px;
+}
+body .main-content > section > div > section {
+  width: 100%;
+  padding-top: 50px;
+}
+body .main-content > section > div > section > h2 {
+  margin: 0 auto;
+  font-size: 6rem;
+  color: white;
+  transform: translateY(50%);
+  letter-spacing: 0.1em;
+  max-width: 760px;
+}
+body .main-content > section > div > section .large {
+  margin: 0 auto;
+  font-size: 1.6rem;
+  max-width: 400px;
+  position: relative;
+  text-align: center;
+}
+body .main-content > section > div > section > p {
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  line-height: 2;
+  font-weight: bold;
+}
+body footer {
+  margin: 0 auto;
+}
+body footer .contact {
+  background-color: #ccd2da;
+  padding: 40px;
+}
+body footer .contact > a {
+  background-color: #f2f2f2;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 300px;
+  font-size: 2rem;
+  padding: 10px;
+  border: 3px solid #001e46;
+  align-items: center;
+  color: #323c46;
+  text-decoration: none;
+  padding: 20px;
+}
+body footer > address {
+  background-color: #001e46;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+}
